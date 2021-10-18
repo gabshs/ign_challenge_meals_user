@@ -1,0 +1,288 @@
+{
+  "excluded": [],
+  "failed": [],
+  "invalid": [],
+  "passed": [
+    {
+      "describe": "changeset/1",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/user_test.exs",
+      "line": 11,
+      "module": "Elixir.Exmeal.UserTest",
+      "test": "test changeset/1 when all params are valid, returns a valid changeset"
+    },
+    {
+      "describe": "changeset/1",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/meal_test.exs",
+      "line": 11,
+      "module": "Elixir.Exmeal.MealTest",
+      "test": "test changeset/1 when all params are valid, returns a valid changeset"
+    },
+    {
+      "describe": "Delete user",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/users/delete_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Users.DeleteTest",
+      "test": "test Delete user when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Delete user",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/users/delete_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Users.DeleteTest",
+      "test": "test Delete user when a valid id is given, returns the user"
+    },
+    {
+      "describe": "Get Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/meals/get_test.exs",
+      "line": 30,
+      "module": "Elixir.Exmeal.Meals.GetTest",
+      "test": "test Get Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Get Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/meals/get_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.GetTest",
+      "test": "test Get Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/meals/update_test.exs",
+      "line": 30,
+      "module": "Elixir.Exmeal.Meals.UpdateTest",
+      "test": "test Update Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/meals/update_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.UpdateTest",
+      "test": "test Update Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Delete Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/meals/delete_test.exs",
+      "line": 30,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Delete Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/meals/delete_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.DeleteTest",
+      "test": "test Delete Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/users/update_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.User.UpdateTest",
+      "test": "test Update Meal when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Update Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/users/update_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.User.UpdateTest",
+      "test": "test Update Meal when a valid id is given, returns the meal"
+    },
+    {
+      "describe": "Get User",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/users/get_test.exs",
+      "line": 25,
+      "module": "Elixir.Exmeal.Users.GetTest",
+      "test": "test Get User when an invalid id is given, returns an error"
+    },
+    {
+      "describe": "Get User",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/users/get_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Users.GetTest",
+      "test": "test Get User when a valid id is given, returns the user"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when all params are valid, creates a meal"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 35,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test create/2 when there are invalid params, returns an error"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test create/2 when all params are valid, creates a user"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 88,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test update/2 when id exist, update the meal"
+    },
+    {
+      "describe": "create/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 30,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test create/2 when there are invalid params, returns an error"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 79,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test update/2 when id exist, update the user"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 56,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id exist, delete the meal"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 51,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test delete/2 when id exist, delete the user"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 151,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test get/2 when id not exist, return an error"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 140,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test get/2 when id not exist, return an error"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 113,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test update/2 when not exist id, return an error"
+    },
+    {
+      "describe": "update/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 105,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test update/2 when not exist id, return an error"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 73,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test delete/2 when id not exist, return an error"
+    },
+    {
+      "describe": "delete/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 64,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test delete/2 when id not exist, return an error"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/users_controller_test.exs",
+      "line": 118,
+      "module": "Elixir.Exmeal.UsersControllerTest",
+      "test": "test get/2 when id exist, return the meal"
+    },
+    {
+      "describe": "get/2",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/controller/meals_controller_test.exs",
+      "line": 126,
+      "module": "Elixir.Exmeal.MealsControllerTest",
+      "test": "test get/2 when id exist, return the meal"
+    },
+    {
+      "describe": null,
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/views/meals_test.exs",
+      "line": 34,
+      "module": "Elixir.ExmealWeb.MealsViewTest",
+      "test": "test render meal.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/views/meals_test.exs",
+      "line": 12,
+      "module": "Elixir.ExmealWeb.MealsViewTest",
+      "test": "test render create.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/views/users_view_test.exs",
+      "line": 30,
+      "module": "Elixir.ExmealWeb.UsersViewTest",
+      "test": "test render user.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/views/users_view_test.exs",
+      "line": 12,
+      "module": "Elixir.ExmealWeb.UsersViewTest",
+      "test": "test render create.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/views/error_view_test.exs",
+      "line": 11,
+      "module": "Elixir.ExmealWeb.ErrorViewTest",
+      "test": "test renders 500.json"
+    },
+    {
+      "describe": null,
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal_web/views/error_view_test.exs",
+      "line": 7,
+      "module": "Elixir.ExmealWeb.ErrorViewTest",
+      "test": "test renders 404.json"
+    },
+    {
+      "describe": "Create Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/meals/create_test.exs",
+      "line": 27,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when there are invalid params, returns an error"
+    },
+    {
+      "describe": "Create Meal",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/meals/create_test.exs",
+      "line": 9,
+      "module": "Elixir.Exmeal.Meals.CreateTest",
+      "test": "test Create Meal when all params are valid, returns the meal"
+    },
+    {
+      "describe": "Create User",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/users/create_test.exs",
+      "line": 22,
+      "module": "Elixir.Exmeal.Users.CreateTest",
+      "test": "test Create User when there are invalid params, returns an error"
+    },
+    {
+      "describe": "Create User",
+      "file": "/home/gabrielhenrique/Documentos/ign_challenge_meals_user/test/exmeal/users/create_test.exs",
+      "line": 7,
+      "module": "Elixir.Exmeal.Users.CreateTest",
+      "test": "test Create User when all params are valid, returns the user"
+    }
+  ],
+  "skiped": []
+}

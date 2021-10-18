@@ -10,10 +10,18 @@ defmodule Exmeal.Meal do
   @derive {Jason.Encoder, only: @required_params ++ [:id]}
 
   schema "meals" do
-    # TO DO
+    field(:description, :string)
+    field(:date, :date)
+    field(:calories, :float)
+
+    belongs_to :user, Exmeal.User
+
+    timestamps()
   end
 
-  def changeset() do
-    # TO DO
+  def changeset(struct \\ %__MODULE__{}, params) do
+    struct
+    |> cast(params, @required_params)
+    |> validate_required(@required_params)
   end
 end

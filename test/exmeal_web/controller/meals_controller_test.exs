@@ -18,17 +18,15 @@ defmodule Exmeal.MealsControllerTest do
         |> post(Routes.meals_path(conn, :create, params))
         |> json_response(:created)
 
-        %{"meals" => %{"meal" => %{"id" => id}}} = response
+      %{"meal" => %{"id" => id}} = response
 
       assert %{
-               "meals" => %{
-                 "meal" => %{
-                   "calories" => 20,
-                   "date" => "2001-05-02",
-                   "description" => "Banana",
-                   "id" => ^id,
-                   "user_id" => ^user_id
-                 }
+               "meal" => %{
+                 "calories" => 20.0,
+                 "date" => "2001-05-02",
+                 "description" => "Banana",
+                 "id" => ^id,
+                 "user_id" => ^user_id
                },
                "message" => "Meal created!"
              } = response
@@ -103,7 +101,7 @@ defmodule Exmeal.MealsControllerTest do
 
       assert %{
                "meal" => %{
-                 "calories" => 20,
+                 "calories" => 20.0,
                  "date" => "2001-05-02",
                  "description" => "Banana",
                  "id" => ^id,
@@ -141,7 +139,7 @@ defmodule Exmeal.MealsControllerTest do
 
       assert %{
                "meal" => %{
-                 "calories" => 20,
+                 "calories" => 20.0,
                  "date" => "2001-05-02",
                  "description" => "Banana",
                  "id" => ^id,

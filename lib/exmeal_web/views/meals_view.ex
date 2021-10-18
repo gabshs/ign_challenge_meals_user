@@ -1,11 +1,18 @@
 defmodule ExmealWeb.MealsView do
   use ExmealWeb, :view
 
-  def render() do
-    # TO DO
+  alias Exmeal.Meal
+
+  def render("create.json", %{meal: %Meal{} = meal}) do
+    %{
+      meal: meal,
+      message: "Meal created!"
+    }
   end
 
-  def render() do
-    # TO DO
+  def render("meal.json", %{meal: %Meal{} = meal}) do
+    %{
+      meal: meal
+    }
   end
 end

@@ -16,7 +16,7 @@ defmodule Exmeal.Meals.CreateTest do
       {:ok, %Meal{id: id} = response} = Exmeal.create_meal(params)
 
       assert %Exmeal.Meal{
-               calories: 20,
+               calories: 20.0,
                date: ~D[2001-05-02],
                description: "Banana",
                id: ^id,

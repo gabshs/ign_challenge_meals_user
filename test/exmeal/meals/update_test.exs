@@ -19,7 +19,7 @@ defmodule Exmeal.Meals.UpdateTest do
 
       assert {:ok,
               %Exmeal.Meal{
-                calories: 25,
+                calories: 25.0,
                 date: ~D[2001-05-02],
                 description: "Banana",
                 id: ^id,

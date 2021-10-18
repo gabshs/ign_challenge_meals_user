@@ -15,14 +15,14 @@ defmodule Exmeal.MealTest do
 
       response =
         :meals_params
-        |>  build()
+        |> build()
         |> Meal.changeset()
 
       assert %Changeset{
                changes: %{
                  description: "Banana",
                  date: ~D[2001-05-02],
-                 calories: 20,
+                 calories: 20.0,
                  user_id: _user_id
                },
                valid?: true
